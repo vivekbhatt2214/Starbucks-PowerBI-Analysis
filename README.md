@@ -2,7 +2,7 @@
 
 An interactive **Power BI dashboard** developed to analyze Starbucks beverage data and identify patterns across calories, sugar, caffeine, protein, and beverage categories.
 
-This project transforms beverage data into an interactive business intelligence dashboard using **Microsoft Power BI, Power Query, DAX, and data visualization techniques**.
+This project transforms raw Starbucks data into an interactive business intelligence dashboard using **Microsoft Power BI, Power Query, DAX, and data visualization techniques**.
 
 ---
 
@@ -14,7 +14,7 @@ This project transforms beverage data into an interactive business intelligence 
 
 ## 🎯 Project Objective
 
-The objective of this project is to analyze Starbucks beverage data and create an interactive dashboard that makes it easier to understand nutritional characteristics and compare different beverage categories.
+The objective of this project is to analyze Starbucks beverage data and create an interactive Power BI dashboard that provides meaningful insights into beverage categories and nutritional characteristics.
 
 The dashboard focuses on:
 
@@ -22,9 +22,9 @@ The dashboard focuses on:
 - Average calorie comparison
 - Average sugar analysis
 - Average caffeine analysis
-- Protein range analysis
+- Protein analysis
 - Beverage category distribution
-- Identification of high-caffeine beverages
+- High-caffeine beverage identification
 - Interactive data exploration
 
 ---
@@ -46,17 +46,17 @@ The dashboard focuses on:
 
 Analyzes and compares the average calorie content across different Starbucks beverage categories.
 
-### 🔹 Beverage Category Analysis
+### 🔹 Caffeine Analysis
 
-Provides a comparison of beverage categories based on their average caffeine values.
+Provides a comparison of average caffeine levels across different beverage categories.
 
 ### 🔹 Beverage Category Distribution
 
-A donut chart showing the distribution of beverages across different categories.
+A donut chart showing the distribution of beverages across different beverage categories.
 
-### 🔹 Caffeine Analysis
+### 🔹 Average Caffeine by Category
 
-Compares caffeine levels across different beverages and beverage categories.
+A horizontal bar chart comparing caffeine values across selected beverages and categories.
 
 ### 🔹 Top 5 Highest-Caffeine Beverages
 
@@ -64,13 +64,12 @@ Highlights the five beverages with the highest caffeine values in the analyzed d
 
 ### 🔹 Interactive Filters
 
-The dashboard includes interactive filters for:
+The dashboard includes interactive filters such as:
 
 - Protein Range
 - Beverage Preparation
-- Beverage Category
 
-These filters allow users to dynamically explore and analyze the data.
+These filters allow users to dynamically explore and analyze the dashboard.
 
 ---
 
@@ -81,22 +80,22 @@ The dashboard helps identify important patterns within the Starbucks beverage da
 - Beverage categories differ significantly in their average calorie content.
 - Caffeine levels vary across different beverage categories.
 - Individual beverages have different nutritional characteristics.
-- High-caffeine beverages can be quickly identified through the dedicated visualization.
-- Interactive filters make it easier to perform focused analysis.
+- High-caffeine beverages can be identified through the dedicated visualization.
+- Interactive filtering allows users to perform focused analysis.
 - The dashboard provides a consolidated view of important beverage metrics.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Microsoft Excel
-- Data Cleaning
-- Data Transformation
-- Data Visualization
-- Business Intelligence
+- **Microsoft Power BI**
+- **Power Query**
+- **DAX**
+- **CSV Data**
+- **Data Cleaning**
+- **Data Transformation**
+- **Data Visualization**
+- **Business Intelligence**
 
 ---
 
@@ -128,8 +127,26 @@ The dashboard includes:
 - Horizontal Bar Chart
 - Donut Chart
 - Category Comparison
-- Interactive Slicers
+- Interactive Filters
 - Custom Dashboard Elements
+
+---
+
+## 📁 Dataset
+
+This project uses two CSV files as data sources:
+
+### 1. Starbucks Dataset
+
+**File:** `starbucks (1).csv`
+
+This dataset contains Starbucks beverage-related information used for nutritional and beverage analysis.
+
+### 2. Starbucks Directory Dataset
+
+**File:** `directory (1).csv`
+
+This dataset contains Starbucks directory-related information used as supporting data for the project.
 
 ---
 
@@ -142,6 +159,10 @@ Starbucks-PowerBI-Analysis/
 │
 ├── Dashboard/
 │   └── Starbucks Analysis.pbix
+│
+├── Dataset/
+│   ├── starbucks (1).csv
+│   └── directory (1).csv
 │
 └── Images/
     └── starbucks-dashboard.png
