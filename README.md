@@ -8,7 +8,7 @@ This project transforms raw Starbucks data into an interactive business intellig
 
 ## 📊 Dashboard Preview
 
-![Starbucks Analysis Dashboard](Images/starbucks-dashboard.png)
+![Starbucks Analysis Dashboard](Images/starbucks%20dashboard.png)
 
 ---
 
